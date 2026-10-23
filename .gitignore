@@ -1,25 +1,29 @@
-
+# Dependencies in all projects
+**/node_modules/
 node_modules/
 
-.next/
+# Frontend build output
+**/.next/
+**/out/
 
-out/
+# Build output
+**/build/
+**/dist/
 
-dist/
+# Testing
+**/coverage/
 
-build/
+# Environment files
+**/.env
+**/.env.*
+!**/.env.example
 
-coverage/
-
-.vercel/
-
-.env
-
-.env.*
-
-!.env.example
-
+# Logs
 *.log
 
-.DS_Store
+# Deployment
+**/.vercel/
 
+# Misc
+.DS_Store
+*.pem
